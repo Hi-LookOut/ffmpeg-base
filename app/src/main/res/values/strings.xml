@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ffmpeg_demo</string>
+    <string-array name="video_list">
+        <item>播放YUV420</item>
+        <item>YUV420转RGB，play</item>
+        <item>MP4转YUV420</item>
+        <item>pthread</item>
+    </string-array>
+</resources>
