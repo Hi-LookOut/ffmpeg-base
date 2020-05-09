@@ -1,0 +1,133 @@
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:84:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:373:79: warning: format specifies type 'long' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
+        LOGI("stream->视频帧：%d,pts:%ld,dts:%ld,duration:%ld",framecount,packet->pts,packet->dts,packet->duration);
+                                     ~~~                                  ^~~~~~~~~~~
+                                     %lld
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:7:80: note: expanded from macro 'LOGI'
+#define LOGI(FORMAT,...) __android_log_print(ANDROID_LOG_INFO,"jason",FORMAT,##__VA_ARGS__);
+                                                                      ~~~~~~   ^~~~~~~~~~~
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:373:91: warning: format specifies type 'long' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
+        LOGI("stream->视频帧：%d,pts:%ld,dts:%ld,duration:%ld",framecount,packet->pts,packet->dts,packet->duration);
+                                             ~~~                                      ^~~~~~~~~~~
+                                             %lld
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:7:80: note: expanded from macro 'LOGI'
+#define LOGI(FORMAT,...) __android_log_print(ANDROID_LOG_INFO,"jason",FORMAT,##__VA_ARGS__);
+                                                                      ~~~~~~   ^~~~~~~~~~~
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:373:103: warning: format specifies type 'long' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
+        LOGI("stream->视频帧：%d,pts:%ld,dts:%ld,duration:%ld",framecount,packet->pts,packet->dts,packet->duration);
+                                                          ~~~                                     ^~~~~~~~~~~~~~~~
+                                                          %lld
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:7:80: note: expanded from macro 'LOGI'
+#define LOGI(FORMAT,...) __android_log_print(ANDROID_LOG_INFO,"jason",FORMAT,##__VA_ARGS__);
+                                                                      ~~~~~~   ^~~~~~~~~~~
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:376:44: warning: format specifies type 'long' but the argument has type 'double' [-Wformat]
+        LOGI("streams->显示时间：%ld",play);
+                                 ~~~  ^~~~
+                                 %f
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:7:80: note: expanded from macro 'LOGI'
+#define LOGI(FORMAT,...) __android_log_print(ANDROID_LOG_INFO,"jason",FORMAT,##__VA_ARGS__);
+                                                                      ~~~~~~   ^~~~~~~~~~~
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:451:36: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+        if(pFormatCtx->streams[i]->codec->codec_type == AVMEDIA_TYPE_VIDEO){
+                                   ^
+../../../../libs/include/libavformat/avformat.h:892:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+../../../../libs/include/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:458:71: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+    AVCodecContext *pCodeCtx = pFormatCtx->streams[video_stream_idx]->codec;
+                                                                      ^
+../../../../libs/include/libavformat/avformat.h:892:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+../../../../libs/include/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:489:15: warning: 'avcodec_decode_video2' is deprecated [-Wdeprecated-declarations]
+        len = avcodec_decode_video2(pCodeCtx, yuv_frame, &got_frame, packet);
+              ^
+../../../../libs/include/libavcodec/avcodec.h:4900:1: note: 'avcodec_decode_video2' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../libs/include/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:504:13: warning: 'avpicture_fill' is deprecated [-Wdeprecated-declarations]
+            avpicture_fill((AVPicture *)rgb_frame, (const uint8_t *) outBuffer.bits, AV_PIX_FMT_RGBA, pCodeCtx->width, pCodeCtx->height);
+            ^
+../../../../libs/include/libavcodec/avcodec.h:5545:1: note: 'avpicture_fill' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../libs/include/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:520:9: warning: 'av_free_packet' is deprecated [-Wdeprecated-declarations]
+        av_free_packet(packet);
+        ^
+../../../../libs/include/libavcodec/avcodec.h:4557:1: note: 'av_free_packet' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../libs/include/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:563:37: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+        if (pFormatCtx->streams[i]->codec->codec_type == AVMEDIA_TYPE_VIDEO) {
+                                    ^
+../../../../libs/include/libavformat/avformat.h:892:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+../../../../libs/include/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:571:71: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+    AVCodecContext *pCodeCtx = pFormatCtx->streams[video_stream_idx]->codec;
+                                                                      ^
+../../../../libs/include/libavformat/avformat.h:892:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+../../../../libs/include/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:602:13: warning: 'avpicture_get_size' is deprecated [-Wdeprecated-declarations]
+            avpicture_get_size(AV_PIX_FMT_YUV420P, pCodeCtx->width, pCodeCtx->height));
+            ^
+../../../../libs/include/libavcodec/avcodec.h:5560:1: note: 'avpicture_get_size' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../libs/include/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:606:5: warning: 'avpicture_fill' is deprecated [-Wdeprecated-declarations]
+    avpicture_fill((AVPicture *) yuvFrame, out_buffer, AV_PIX_FMT_YUV420P, pCodeCtx->width,
+    ^
+../../../../libs/include/libavcodec/avcodec.h:5545:1: note: 'avpicture_fill' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../libs/include/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:624:10: warning: 'avcodec_decode_video2' is deprecated [-Wdeprecated-declarations]
+         avcodec_decode_video2(pCodeCtx, frame, &got_frame, packet);
+         ^
+../../../../libs/include/libavcodec/avcodec.h:4900:1: note: 'avcodec_decode_video2' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../libs/include/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/src/main/cpp/native-lib.cpp:645:9: warning: 'av_free_packet' is deprecated [-Wdeprecated-declarations]
+        av_free_packet(packet);
+        ^
+../../../../libs/include/libavcodec/avcodec.h:4557:1: note: 'av_free_packet' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../libs/include/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+16 warnings generated.
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so

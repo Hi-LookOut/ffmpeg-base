@@ -1,0 +1,69 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/teamsun-edu/ffmpeg/ffmpeg-base",
+      "sdkFolder": "/Users/teamsun-edu/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app",
+      "makeFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/.cxx",
+      "cxxFolder": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx",
+      "ndkFolder": "/Users/teamsun-edu/Library/Android/sdk/ndk/20.0.5594570",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cmake/debug/armeabi-v7a",
+  "jsonFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/build/intermediates/cmake/debug/obj/armeabi-v7a",
+  "buildCommandFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cmake/debug/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cxx/debug/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cxx/debug/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cxx/debug/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cxx/debug/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/teamsun-edu/ffmpeg/ffmpeg-base/app/.cxx/cmake/debug/armeabi-v7a/compile_commands.json"
+}

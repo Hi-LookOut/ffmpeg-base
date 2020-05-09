@@ -1,1 +1,30 @@
-/build
+
+# Built application files
+*.apk
+*.ap_
+
+# Files for the Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# OSX files　　　　　　
+.DS_Store
+
+# Android Studio
+*.iml
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Gradle files
+.gradle/
+build/
+app/build/
+
+# Log Files
+*.log
+
+# private files
+javaClass/

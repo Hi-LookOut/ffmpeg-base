@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 android.R.id.text1, videoArray);
         sp_video.setAdapter(adapter);
         sp_video.setOnItemSelectedListener(this);
-
+        //getExternalFilesDir(Environment.DIRECTORY_PICTURES);
         input = new File(Environment.getExternalStorageDirectory(), "DCIM/Camera/input2.mp4").getAbsolutePath();
         //ffmpeg -i transpose=1 ----顺时针旋转iuput2.mp4 90度生成的视频input5.mp4
         input5 = new File(Environment.getExternalStorageDirectory(), "Tencent/QQfile_recv/input5.mp4").getAbsolutePath();

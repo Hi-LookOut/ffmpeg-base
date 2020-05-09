@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ffmpeg_demo</string>
+    <string name="app_name">ffmpeg-base</string>
     <string-array name="video_list">
         <item>播放YUV420</item>
         <item>YUV420转RGB，play</item>
