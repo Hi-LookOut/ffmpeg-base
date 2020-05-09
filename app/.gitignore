@@ -27,5 +27,3 @@ app/build/
 # Log Files
 *.log
 
-# private files
-javaClass/
